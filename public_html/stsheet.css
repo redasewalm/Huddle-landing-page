@@ -1,0 +1,100 @@
+/* 
+    Document   : stsheet
+    Created on : Sep 26, 2020, 7:45:56 PM
+    Author     : mm
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    background-image: url('images/bg-desktop.svg');
+    background-color: hsl(257, 40%, 49%);
+    font-family: poppins ,sans-serif;
+    background-size: 1190px;
+    
+}
+.logo img{
+    width: 15% ; 
+    margin-top:50px;
+    margin-left: 50px;
+    
+}
+.mid .mockups{
+    width: 50%;
+    margin-top: 60px;
+     margin-left: 50px;
+    
+}
+.mid .content{
+    width: 40%;
+    color: white;
+    float: right;
+    padding-top: 50px;
+    padding-right: 15px;
+}
+.mid .content p{
+   
+   font-size: 14px;
+}
+.mid .content .btn{
+    width: 180px;
+    height: 50px;
+    border-style: none;
+    background-color: white;
+    border-radius: 30px;
+    color: #8b70a5;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    
+    
+}
+.mid .content .btn:hover{
+    background-color: purple;
+    
+}
+.footer{
+    
+    padding-right: 5%;
+    float: right;
+    margin-top: -25px;
+   
+}
+
+.fa {
+  padding: 15px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+@media (max-width:750px){
+    .mid .mockups{
+    width: 80%;
+    
+}
+.mid .content{
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 10px;
+    
+}
+.footer{
+    margin-top: 0px;
+    padding-right: 30%;
+    
+}
+}
